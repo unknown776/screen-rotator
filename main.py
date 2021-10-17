@@ -15,5 +15,6 @@ if inp < 26:
         sleep(1.5)
     screen.rotate_to(0)
 
-
-
+else:
+    print(Fore.RED+"Please choose a number between " + Fore.CYAN+ Style.BRIGHT + "10 to 25")
+    sleep(1.5)
